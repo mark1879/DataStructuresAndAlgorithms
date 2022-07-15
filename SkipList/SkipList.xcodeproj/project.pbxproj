@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D42A7B726705CFE00C97B13 /* skip_list2.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D42A7B626705CFE00C97B13 /* skip_list2.hpp */; };
 		4DFB21DE23A720FA0075A36C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB21DD23A720FA0075A36C /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		4D42A7B5266F4C3400C97B13 /* skip_list.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = skip_list.hpp; sourceTree = "<group>"; };
-		4D42A7B626705CFE00C97B13 /* skip_list2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = skip_list2.hpp; sourceTree = "<group>"; };
 		4DFB21DA23A720FA0075A36C /* SkipList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SkipList; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFB21DD23A720FA0075A36C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +60,6 @@
 			children = (
 				4DFB21DD23A720FA0075A36C /* main.cpp */,
 				4D42A7B5266F4C3400C97B13 /* skip_list.hpp */,
-				4D42A7B626705CFE00C97B13 /* skip_list2.hpp */,
 			);
 			path = SkipList;
 			sourceTree = "<group>";
@@ -125,7 +122,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DFB21DE23A720FA0075A36C /* main.cpp in Sources */,
-				4D42A7B726705CFE00C97B13 /* skip_list2.hpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

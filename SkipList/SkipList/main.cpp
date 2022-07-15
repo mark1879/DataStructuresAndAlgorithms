@@ -8,12 +8,26 @@
 
 #include <iostream>
 #include <vector>
-//#include "skip_list.hpp"
-#include "skip_list2.hpp"
-
-using namespace std;
+#include "skip_list.hpp"
 
 int main(int argc, const char * argv[]) {
+    
+    SkipList<int> skip_list;
+    
+    for (int i = 1; i <= 20; i++) {
+        skip_list.Add(i, i);
+    }
+    
+    Node<int>* find = skip_list.Find(1);
+    assert(find != nullptr);
+    
+    skip_list.Print();
+        
+    cout << endl << "<<<<<<<<<<<<<<<" << endl;
+
+    skip_list.Delete(17);
+    skip_list.Print();
+    
     
     return 0;
 }
